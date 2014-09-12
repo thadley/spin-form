@@ -3,10 +3,10 @@
   <channel>
     <title>SPiN NYC</title>
     <description>SPiN NYC Booking Form</description>
-    <link>//</link>
-    <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Sep 2014 23:46:29 -0500</pubDate>
-    <lastBuildDate>Thu, 11 Sep 2014 23:46:29 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 12 Sep 2014 00:46:49 -0500</pubDate>
+    <lastBuildDate>Fri, 12 Sep 2014 00:46:49 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
   </channel>
