@@ -11,7 +11,13 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <!-- SimpleForm integration. The form_api_token is not secret and does not pose a security risk.-->
+                    <form action="http://getsimpleform.com/messages?form_api_token=e4706f9bfc1b091c54ee1a889515e4ad" method="post">
+                          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                          <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+                          <!-- all your input fields here.... -->
+                        <!-- </form> -->
+                    <!-- <form name="sentMessage" id="contactForm" novalidate> -->
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Contact Email</label>
@@ -23,6 +29,13 @@
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Date</label>
                                 <input type="date" class="form-control" placeholder="Date" id="date" required data-validation-required-message="Please enter the date of the booking.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Submit a 500x500 image for posting to our calendar. (We can only use one image per show.) Image file (must be 500x500 pixels):</label>
+                                <input type="file" class="form-control" id="uploaded_file" required data-validation-required-message="Please attach a 500x500 image.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
