@@ -7,5 +7,7 @@ See Freelancer documentation [here](https://github.com/jeromelachaud/freelancer-
 
 View this Jekyll theme demo [here](https://jeromelachaud.github.io/freelancer-theme)
 
+[Brace Forms ](http://forms.brace.io/) used
+
 =========
 For more details, read [Jekyll documentation](http://jekyllrb.com/)

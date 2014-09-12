@@ -19,21 +19,21 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Contact Email</label>
-                                <input type="email" class="form-control" placeholder="Contact email" id="email_address" required data-validation-required-message="Please enter your email so we can be in touch with any questions.">
+                                <input type="email" class="form-control" placeholder="Contact email" name="_replyto" required data-validation-required-message="Please enter your email so we can be in touch with any questions.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Date</label>
-                                <input type="date" class="form-control" placeholder="Date" id="date" required data-validation-required-message="Please enter the date of the booking.">
+                                <input type="date" class="form-control" placeholder="Date" name="date" required data-validation-required-message="Please enter the date of the booking.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Submit a 500x500 image for posting to our calendar. (We can only use one image per show.) Image file (must be 500x500 pixels):</label>
-                                <input type="file" class="form-control" id="uploaded_file" required data-validation-required-message="Please attach a 500x500 image.">
+                                <input type="file" class="form-control" name="uploaded_file" required data-validation-required-message="Please attach a 500x500 image.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -41,28 +41,28 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Set Time</label>
-                                <input type="time" class="form-control" placeholder="Set Time" id="set_time" required data-validation-required-message="Please enter the set time.">
+                                <input type="time" class="form-control" placeholder="Set Time" name="set_time" required data-validation-required-message="Please enter the set time.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your band's name.">
+                                <input type="text" class="form-control" placeholder="Name" name="name" required data-validation-required-message="Please enter your band's name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Website or Facebook page</label>
-                                <input type="text" class="form-control" placeholder="Website or Facebook page (Facebook preferred)" id="website" required data-validation-required-message="Please enter your website or Facebook page.">
+                                <input type="text" class="form-control" placeholder="Website or Facebook page (Facebook preferred)" name="website" required data-validation-required-message="Please enter your website or Facebook page.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Tech Specs (incl. # of people performing)</label>
-                                <textarea rows="3" class="form-control" placeholder="Tech specs: include total number of people performing (ex.: 5 people total; 2 guitars, bass, drums, keys; bass and keys get vocal mics)" id="tech_specs" required data-validation-required-message="Please enter your tech specs."></textarea>
+                                <textarea rows="3" class="form-control" placeholder="Tech specs: include total number of people performing (ex.: 5 people total; 2 guitars, bass, drums, keys; bass and keys get vocal mics)" name="tech_specs" required data-validation-required-message="Please enter your tech specs."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -70,14 +70,14 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Advance Ticketing Page</label>
-                                <input type="text" class="form-control" placeholder="Advance Ticketing Page" id="ticket_page">
+                                <input type="text" class="form-control" placeholder="Advance Ticketing Page" name="ticket_page">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Facebook Page for Event</label>
-                                <input type="text" class="form-control" placeholder="Facebook Page For Event" id="event_page">
+                                <input type="text" class="form-control" placeholder="Facebook Page For Event" name="event_page">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                <input type="submit" class="btn btn-success btn-lg" value="Send">
                             </div>
                         </div>
                     </form>
