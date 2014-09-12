@@ -26,3 +26,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+baseurl: /spin-form
