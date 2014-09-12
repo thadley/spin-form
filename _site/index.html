@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SPiN NYC</title>
+    <title>SPiN NYC Booking</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="SPiN NYC Booking Form">
     <link rel="canonical" href="/">
@@ -41,7 +41,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">SPiN NYC</a>
+                <a class="navbar-brand" href="#page-top">SPiN NYC Booking</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,13 +51,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Form</a>
                     </li>
                 </ul>
             </div>
@@ -71,73 +65,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <!-- <img class="img-responsive" src="img/spin.png" alt=""> -->
                     <div class="intro-text">
                         <span class="name">SPiN NYC</span>
-                        <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <hr class="line">
+                        <span class="skills">Bookers | Please use this form for each night you book. It will be submitted to Sam's email for calendar posting and relaying to our sound techs.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-<!--
-        
-          
-        
-          
-        
-          
-        
- -->
-`
 
-    
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                
-            </div>
-        </div>
-    </section>
-     <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
      <!-- Contact Section -->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
+                    <h2>Booking Form</h2>
+                    <hr class="line">
                 </div>
             </div>
             <div class="row">
@@ -147,29 +92,59 @@
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Contact Email</label>
+                                <input type="email" class="form-control" placeholder="Contact email" id="email_address" required data-validation-required-message="Please enter your email so we can be in touch with any questions.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Date</label>
+                                <input type="date" class="form-control" placeholder="Date" id="date" required data-validation-required-message="Please enter the date of the booking.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <label>Band 1</label>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Set Time</label>
+                                <input type="time" class="form-control" placeholder="Set Time" id="set_time" required data-validation-required-message="Please enter the set time.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your band's name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <label>Website or Facebook page</label>
+                                <input type="text" class="form-control" placeholder="Website or Facebook page (Facebook preferred)" id="website" required data-validation-required-message="Please enter your website or Facebook page.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <label>Tech Specs (incl. # of people performing)</label>
+                                <textarea rows="3" class="form-control" placeholder="Tech specs: include total number of people performing (ex.: 5 people total; 2 guitars, bass, drums, keys; bass and keys get vocal mics)" id="tech_specs" required data-validation-required-message="Please enter your tech specs."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        Optional: 
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Advance Ticketing Page</label>
+                                <input type="text" class="form-control" placeholder="Advance Ticketing Page" id="ticket_page">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <label>Facebook Page for Event</label>
+                                <input type="text" class="form-control" placeholder="Facebook Page For Event" id="event_page">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -193,7 +168,6 @@
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
                         <p>
-                            
                                 48 E 23rd St <br>
 		                    
                                 New York, NY 10010 <br>
@@ -203,18 +177,18 @@
                     <div class="footer-col col-md-4">
                         <h3>Connect</h3>
                         <ul class="list-inline">
-                            
-                            <li>
-                                <a href="http://twitter.com/spinpong" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-		                    
                             <li>
                                 <a href="https://www.facebook.com/SPiNNewYork" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
-		                    
+
+                            <li>
+                                <a href="https://twitter.com/spinpong" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+
                             <li>
                                 <a href="http://instagram.com/spinnewyork" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                             </li>
+
 		                    
                         </ul>
                     </div>
@@ -229,7 +203,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; SPiN NYC 2014
+                        Copyright &copy; Freelancer 2014
                     </div>
                 </div>
             </div>
@@ -243,8 +217,6 @@
         </a>
     </div>
 
-     <!-- Portfolio Modals -->
- 
      <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery-1.11.0.js"></script>
 
