@@ -5,7 +5,7 @@ Jekyll Freelancer theme used, based on [Freelancer bootstrap theme ](http://star
 
 See Freelancer documentation [here](https://github.com/jeromelachaud/freelancer-theme)
 
-View this jekyll theme demo [here](https://jeromelachaud.github.io/freelancer-theme)
+View this Jekyll theme demo [here](https://jeromelachaud.github.io/freelancer-theme)
 
 =========
 For more details, read [Jekyll documentation](http://jekyllrb.com/)
