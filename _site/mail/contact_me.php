@@ -27,7 +27,7 @@ $event_page = $_POST['event_page'];
 $to = 'trisha.hadley@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nDate: $date\n\nSet Time: $set_time\n\nName: $name\n\nWebsite: $website\n\nTech Specs: $tech_specs\n\nAdvance Ticketing Page: $ticket_page\n\nFacebook Event Page:\n$event_page";
-$headers = "From: trisha.hadley@gmail.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "From: noreply@spinnyc.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;
